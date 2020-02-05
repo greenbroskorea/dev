@@ -19,7 +19,7 @@ MVVM 을 구현하는 부하가 단순한 UI 동작에 대해 지나칠 정도�
 * https://poqw.github.io/about_mvvm/
 
 3. 원리
-![image1](./image1.png)
+![image1](./_posts/image1.png)
 
 - 사용자의 action 이 view 를 통해 들어온다.
 - command 패턴으로 view 가 action 을 view model 에 전달한다.
