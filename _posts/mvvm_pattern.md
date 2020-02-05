@@ -1,4 +1,4 @@
-MVVM 패턴(Software Architectural pattern)
+h1 MVVM 패턴(Software Architectural pattern)
 
 1. 기원
 사용자 인터페이스의 사건 기반 프로그래밍을 단순하게 만들 목적으로 마이크로소프트의 설계자 켄 쿠퍼와 테드 페스터스에 의해 발명되었다.
@@ -7,7 +7,7 @@ MVVM 을 구현하는 부하가 단순한 UI 동작에 대해 지나칠 정도�
 
 참고
 * MVVM 은 Model, View, ViewModel 의 약어
-* 위키백과
+* [위키백과](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EB%B7%B0%EB%AA%A8%EB%8D%B8)
 
 2. 사용이유
 굳이 패턴을 사용하지 않아도 프로그램이 충분히 돌아가는 코드를 짤 수 있는데 사용하는 이유
@@ -37,8 +37,8 @@ MVVM 을 구현하는 부하가 단순한 UI 동작에 대해 지나칠 정도�
 - 따라서 view model 은 중간에서 model 과 view 를 독립적으로 발전시킬 수 있다.
 
 참고
-* 첫그림자료
-* 마이크로소프트(한글)
+* [첫그림자료](https://beomy.tistory.com/43)
+* [마이크로소프트(한글)](https://docs.microsoft.com/ko-kr/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
 
 4. View
 사용자가 화면에서 볼 수 있는 구조, 레이아웃 및 모양을 정의하는 작업 담당.
@@ -51,7 +51,7 @@ view model 은 필요한 모델 클래스와 뷰의 상호작용을 조정해야
 6. Model
 model 은 응용 프로그램의 데이터를 캡슐화하는 비시각적 클래스입니다.
 
-* 마이크로소프트(한글)
+* [마이크로소프트(한글)](https://docs.microsoft.com/ko-kr/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
 
 7. Android MVVM
 Android Jetpack 에 포함된  Architecture Components 인 LiveData, ViewModel 을 이용.
