@@ -110,3 +110,6 @@ public static void loadImage(ImageView view, String, url, Drawable error) {
 }
 ```
 loadImage() 에서 view 는 기본으로 전달되는 매개변수이고, @BindingAdapter 로 지정하는 변수가 순서대로 이어져 값이 전달된다. requireAll=false 를 추가하면 값을 설정하지 않았을때 기본값이 설정된다.(Int = 0)
+
+참고
+- [https://developer.android.com/topic/libraries/data-binding?hl=ko](https://developer.android.com/topic/libraries/data-binding?hl=ko)
