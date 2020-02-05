@@ -104,6 +104,7 @@ setDrawerListener(DrawerListener) 를 호출한 것과 동일.
 12. 결합 어댑터 여러 속성 사용
 ```
 <ImageView app:imageUrl="@{venue.imageUrl}" app:error="@{@drawable/venueError}" />
+
 @BindingAdapter({"imageUrl", "error"})
 public static void loadImage(ImageView view, String, url, Drawable error) {
  Picasso.get().load(url).error(error).into(view);
