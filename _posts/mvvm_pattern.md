@@ -19,7 +19,7 @@ MVVM 을 구현하는 부하가 단순한 UI 동작에 대해 지나칠 정도�
 * https://poqw.github.io/about_mvvm/
 
 3. 원리
-![alt image1](./image1.png "image1")
+![alt text](./image1.png "image1")
 
 - 사용자의 action 이 view 를 통해 들어온다.
 - command 패턴으로 view 가 action 을 view model 에 전달한다.
@@ -30,7 +30,7 @@ MVVM 을 구현하는 부하가 단순한 UI 동작에 대해 지나칠 정도�
 
 ----------------------------------------------------------------------------------
 
-![alt image2](./image2.png "image2")
+![alt text](./image2.png "image2")
 
 - view 는 view model 을 인식하고 view model 은 model 을 인식한다.
 - 반대로 model 은 view model 을 인식하지 않고 view model 은 view 를 인식하지 못한다.
