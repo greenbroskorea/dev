@@ -56,5 +56,5 @@ class MyLocationListener implements LifecycleObserver {
 - LifecycleObserver : 생성하여 Lifecycle 에 등록하면 상태변화가 생길때마다 알림을 받는다.
 
 참고
-* https://developer.android.com/topic/libraries/architecture/lifecycle?hl=ko
-* https://codechacha.com/ko/android-jetpack-lifecycle/
+* [https://developer.android.com/topic/libraries/architecture/lifecycle?hl=ko](https://developer.android.com/topic/libraries/architecture/lifecycle?hl=ko)
+* [https://codechacha.com/ko/android-jetpack-lifecycle/](https://codechacha.com/ko/android-jetpack-lifecycle/)
