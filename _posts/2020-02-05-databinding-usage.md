@@ -61,6 +61,7 @@ android:text="@{user.firstName ?? user.lastName}"
  <import type="java.util.Map" />
  <variable name="map" type="Map&lt;String, String>"/>
 </data>
+
 android:text="@{map[key]}"
 ```
 
@@ -73,13 +74,16 @@ android:text="@{map['firstName']}"
 8. 메서드 참조
 ```
 public void onClickFriend(View view)
+
 android:onClick="@{handlers::onClickFriend}"
 ```
 매개변수가 View 이면 위와 같이 호출 가능.
 
 ```
 public void onSaveClick(Task task)
+
 <variable name="task" type="com.android.example.Task" />
+
 android:onClick="@{() -> presenter.onSaveClick(task)}"
 ```
 일반적인 메서드 호출.
