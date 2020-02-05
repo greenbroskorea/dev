@@ -1,4 +1,4 @@
-# h1 MVVM 패턴(Software Architectural pattern)
+# MVVM 패턴(Software Architectural pattern)
 
 1. 기원
 사용자 인터페이스의 사건 기반 프로그래밍을 단순하게 만들 목적으로 마이크로소프트의 설계자 켄 쿠퍼와 테드 페스터스에 의해 발명되었다.
