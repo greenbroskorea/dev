@@ -12,3 +12,6 @@
 - 앱 성능 향상
 - 메모리 누수와 널 포인터 에러 방지.
 - UI 프레임웍 호출을 제거하여 액티비티 코드 간소화.
+
+* 참고
+- [DataBinding Codelabs](https://codelabs.developers.google.com/codelabs/android-databinding)
