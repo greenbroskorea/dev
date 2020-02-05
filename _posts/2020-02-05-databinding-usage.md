@@ -1,6 +1,8 @@
 # Data Binding 사용법
 1. 레이아웃 속성에 기본값 지정
-`<TextView android:text="@{user.firstname, default=my_default}" />`
+```
+<TextView android:text="@{user.firstname, default=my_default}" />
+```
 기본값 지정 가능
 
 2. <data> 태그에서 클래스 변수 선언
