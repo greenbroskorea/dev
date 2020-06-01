@@ -1,3 +1,16 @@
+## 06.01
+### Chip 컴포넌트
+- gradle 추가 : implementation 'com.android.support:design:28.0.0'
+- style AppThmeme : parent="Theme.AppCompat.Light.NoActionBar" 사용해야함
+- [Chip component](https://medium.com/wasd/material-design-chip-%EC%82%AC%EC%9A%A9%EB%B2%95-in-android-154f29f88241)
+- [이슈] click 리스너 사용시 seletion index 값을 알 수 없음
+  - setTag로 데이터 지정해도 값을 못 읽어옴.
+  
+## Binding
+- 서버데이터에서 휴대폰번호를 화면에 보여줄땐 dash값 형태로 포맷하고 서버 업데이트할 땐 dash값 제거하고 싶을땐?
+  - Live Data에서 init형식으로 포맷데이터 넣고 request할 LiveData 값을 따로 만든다.
+  - [Transformations로 LiveData 사용하기](https://wooooooak.github.io/android/2019/07/13/liveData%EB%B3%80%ED%98%95%ED%95%98%EA%B8%B0/)
+  
 ## 05.26
 - [데이터 바인딩 String - Find keyword> Many ways to concat strings](https://stackoverflow.com/questions/40039942/i-want-to-concat-two-strings-for-a-textview-in-android-data-binding-api)
 
