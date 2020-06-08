@@ -1,9 +1,8 @@
 ## 06.08
-### Firebase
+### [Firebase](https://firebase.google.com/)
  - ACloud Functions, Authentication, Hosting, Cloud Storage, Realtime Database, Crashlytics, Cloud Messaging, Remote Config, AdMob, Dynamic Links
  김팀장님이 특강으로 기능에 대해 설명해주심.
  - 앱을 따로 만들어서 사용하다보면 장단점 알게됨.
- - [참고 URL](https://firebase.google.com/)
  
 ### Git stash
  - [소스트리에서 stash 기능 사용하기](https://okayoon.tistory.com/entry/git-Stash-%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
@@ -12,8 +11,7 @@
    - 공동 작업중인상태에서 커밋을 위해 pull해야하는데 현재 작업중인게 겹치면 내껄 stash로 넣어놓고 pull받아서 사용 가능.
    - 여러 branch 작업시 개발작업중인 상태에서 릴리즈 버전에 수정이 필요할 때 
    
-###  Layout Inspector로 레이아웃 디버깅
-- [참고 URL](https://developer.android.com/studio/debug/layout-inspector?hl=ko)
+### [Layout Inspector로 레이아웃 디버깅](https://developer.android.com/studio/debug/layout-inspector?hl=ko)
 
 ## 06.01
 ### Chip 컴포넌트
